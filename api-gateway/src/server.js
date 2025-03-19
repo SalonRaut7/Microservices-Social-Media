@@ -8,6 +8,7 @@ const { RedisStore } = require('rate-limit-redis'); // Redis-based store for rat
 const logger = require('./utils/logger'); // Custom logger for logging requests and errors
 const proxy = require('express-http-proxy'); // Proxy middleware to forward requests to microservices
 const errorHandler = require('./middleware/errorHandler'); // Custom error handling middleware
+const { validateToken } = require('./middleware/authMiddleware');
 
 const app = express(); 
 const PORT = process.env.PORT || 3000; 
@@ -92,6 +93,24 @@ app.use('/v1/auth', proxy(process.env.IDENTITY_SERVICE_URL, {
     }
 }));
 
+// ===============================
+// 🔁 SETTING UP PROXY FOR POST SERVICE
+// ===============================
+
+app.use('/v1/posts',validateToken,proxy(process.env.POST_SERVICE_URL,{
+    ...proxyOptions,
+    proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+        proxyReqOpts.headers["Content-Type"] = "application/json";
+        proxyReqOpts.headers["x-user-id"] = srcReq.user.userId
+        return proxyReqOpts;
+    },
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+        logger.info(`Response received from Post-Service: ${proxyRes.statusCode}`);
+        return proxyResData;
+    }
+
+}))
+
 
 // ===============================
 // ❌ ERROR HANDLING
@@ -106,6 +125,7 @@ app.use(errorHandler);
 app.listen(PORT, () => {
     logger.info(`API Gateway is running on port ${PORT}`);
     logger.info(`Identity-Service is running on ${process.env.IDENTITY_SERVICE_URL}`);
+    logger.info(`Post-Service is running on ${process.env.POST_SERVICE_URL}`);
     logger.info(`Redis is running on ${process.env.REDIS_URL}`);
 });
 

@@ -1,0 +1,28 @@
+{"level":"info","message":"Post service running on PORT: 3002","service":"post-service","timestamp":"2025-03-19T14:36:37.526Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-03-19T14:36:38.505Z"}
+{"level":"info","message":"Post service running on PORT: 3002","service":"post-service","timestamp":"2025-03-19T14:59:36.136Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-03-19T14:59:47.171Z"}
+{"level":"info","message":"Post service running on PORT: 3002","service":"post-service","timestamp":"2025-03-19T15:00:21.690Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-03-19T15:00:32.523Z"}
+{"level":"info","message":"Post service running on PORT: 3002","service":"post-service","timestamp":"2025-03-19T15:01:33.198Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-03-19T15:01:33.962Z"}
+{"level":"info","message":"Post service running on PORT: 3002","service":"post-service","timestamp":"2025-03-19T15:01:42.170Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-03-19T15:01:42.953Z"}
+{"level":"info","message":"Post service running on PORT: 3002","service":"post-service","timestamp":"2025-03-19T15:03:57.753Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-03-19T15:03:58.562Z"}
+{"level":"info","message":"Post service running on PORT: 3002","service":"post-service","timestamp":"2025-03-19T15:04:29.124Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-03-19T15:04:29.833Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-03-19T15:05:23.221Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-03-19T15:05:23.222Z"}
+{"level":"info","message":"Create post endpoint hit ","service":"post-service","timestamp":"2025-03-19T15:05:23.228Z"}
+{"0":"\"","1":"c","10":"i","11":"s","12":" ","13":"r","14":"e","15":"q","16":"u","17":"i","18":"r","19":"e","2":"o","20":"d","3":"n","4":"t","5":"e","6":"n","7":"t","8":"\"","9":" ","level":"warn","message":"validation error ","service":"post-service","timestamp":"2025-03-19T15:05:23.240Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-03-19T15:06:42.576Z"}
+{"level":"info","message":"Request body: {\"content\":\"New Post Created\"}","service":"post-service","timestamp":"2025-03-19T15:06:42.577Z"}
+{"level":"info","message":"Create post endpoint hit ","service":"post-service","timestamp":"2025-03-19T15:06:42.579Z"}
+{"level":"info","message":"Post created successfully {\n  user: new ObjectId('67d6f374a054d77ba3dfd6e2'),\n  content: 'New Post Created',\n  mediaIds: [],\n  _id: new ObjectId('67dadd82d22c372cb90ae55b'),\n  createdAt: 2025-03-19T15:06:42.591Z,\n  updatedAt: 2025-03-19T15:06:42.591Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-03-19T15:06:42.660Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-03-19T15:07:06.871Z"}
+{"level":"info","message":"Request body: {\"content\":\"New Post Created\"}","service":"post-service","timestamp":"2025-03-19T15:07:06.872Z"}
+{"level":"info","message":"Create post endpoint hit ","service":"post-service","timestamp":"2025-03-19T15:07:06.873Z"}
+{"level":"info","message":"Post created successfully {\n  user: new ObjectId('67d6f374a054d77ba3dfd6e2'),\n  content: 'New Post Created',\n  mediaIds: [],\n  _id: new ObjectId('67dadd9ad22c372cb90ae55d'),\n  createdAt: 2025-03-19T15:07:06.876Z,\n  updatedAt: 2025-03-19T15:07:06.876Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-03-19T15:07:06.926Z"}
+{"level":"info","message":"Post service running on PORT: 3002","service":"post-service","timestamp":"2025-03-19T15:31:39.632Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-03-19T15:31:50.662Z"}
