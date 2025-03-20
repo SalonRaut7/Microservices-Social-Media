@@ -1,0 +1,4 @@
+{"level":"error","message":"Error fetching post: ReferenceError: page is not defined","service":"post-service","timestamp":"2025-03-20T13:16:14.393Z"}
+{"level":"error","message":"Error fetching post: ReferenceError: cacheKey is not defined","service":"post-service","timestamp":"2025-03-20T13:17:25.424Z"}
+{"level":"error","message":"Error fetching post: ReferenceError: cacheKey is not defined","service":"post-service","timestamp":"2025-03-20T13:19:47.902Z"}
+{"level":"error","message":"Error fetching post: ReferenceError: cacheKey is not defined","service":"post-service","timestamp":"2025-03-20T13:19:50.005Z"}
