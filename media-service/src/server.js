@@ -11,6 +11,8 @@ const Redis = require('ioredis')
 const { RateLimiterRedis } = require('rate-limiter-flexible'); // Redis-based rate limiting
 const { rateLimit } = require('express-rate-limit'); // Express middleware for rate limiting
 const { RedisStore } = require('rate-limit-redis'); // Redis store for express-rate-limit
+const { connectToRabbitMQ, consumeEvent } = require('./utils/rabbitmq')
+const { handlePostDeleted } = require('./eventHandlers/media-event-handlers')
 
 const app = express();
 const PORT = process.env.PORT || 3003
@@ -68,9 +70,22 @@ app.use('/api/media',mediaRoutes);
 
 app.use(errorHandler);
 
-app.listen(PORT, () => {
-    logger.info(`Media service running on PORT: ${PORT}`);
-});
+async function startServer(){
+    try {
+        await connectToRabbitMQ();
+
+        //consume events
+        await consumeEvent('post.deleted',handlePostDeleted)
+        app.listen(PORT, () => {
+            logger.info(`Media service running on PORT: ${PORT}`);
+        });
+    } catch (error) {
+        logger.error('Failed to connect to server', error);
+        process.exit(1);
+    }
+}
+
+startServer()
 
 // ==========================
 // 📌 Unhandled Promise Rejection Handler

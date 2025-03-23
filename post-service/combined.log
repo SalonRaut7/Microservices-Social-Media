@@ -144,3 +144,45 @@
 {"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-03-21T15:21:32.375Z"}
 {"level":"info","message":"Post service running on PORT: 3002","service":"post-service","timestamp":"2025-03-21T15:21:32.382Z"}
 {"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-03-21T15:21:32.948Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-03-21T16:18:09.319Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-03-23T07:32:47.839Z"}
+{"level":"info","message":"Post service running on PORT: 3002","service":"post-service","timestamp":"2025-03-23T07:32:47.845Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-03-23T07:32:48.373Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-03-23T07:39:29.500Z"}
+{"level":"info","message":"Post service running on PORT: 3002","service":"post-service","timestamp":"2025-03-23T07:39:29.511Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-03-23T07:39:30.257Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-03-23T07:42:34.014Z"}
+{"level":"info","message":"Post service running on PORT: 3002","service":"post-service","timestamp":"2025-03-23T07:42:34.022Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-03-23T07:42:34.718Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-03-23T07:43:20.651Z"}
+{"level":"info","message":"Post service running on PORT: 3002","service":"post-service","timestamp":"2025-03-23T07:43:20.661Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-03-23T07:43:21.119Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-03-23T08:10:49.606Z"}
+{"level":"info","message":"Request body: {\"content\":\"Venom Wallpaper\",\"mediaIds\":[\"67dfc1c3416d65f79bb31728\"]}","service":"post-service","timestamp":"2025-03-23T08:10:49.606Z"}
+{"level":"info","message":"Create post endpoint hit ","service":"post-service","timestamp":"2025-03-23T08:10:49.613Z"}
+{"level":"info","message":"Post created successfully {\n  user: new ObjectId('67d6f374a054d77ba3dfd6e2'),\n  content: 'Venom Wallpaper',\n  mediaIds: [ '67dfc1c3416d65f79bb31728' ],\n  _id: new ObjectId('67dfc209d174cc02712bf006'),\n  createdAt: 2025-03-23T08:10:49.631Z,\n  updatedAt: 2025-03-23T08:10:49.631Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-03-23T08:10:49.696Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-service","timestamp":"2025-03-23T08:11:14.116Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-03-23T08:11:14.117Z"}
+{"level":"info","message":"Received DELETE request to /api/posts/67dfc209d174cc02712bf006","service":"post-service","timestamp":"2025-03-23T08:13:18.684Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-03-23T08:13:18.684Z"}
+{"level":"info","message":"Event published: ${routingKey}","service":"post-service","timestamp":"2025-03-23T08:13:18.744Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-03-23T08:24:04.740Z"}
+{"level":"info","message":"Request body: {\"content\":\"Rodrygooo\",\"mediaIds\":[\"67dfc4f878a887f379a82ffb\"]}","service":"post-service","timestamp":"2025-03-23T08:24:04.740Z"}
+{"level":"info","message":"Create post endpoint hit ","service":"post-service","timestamp":"2025-03-23T08:24:04.742Z"}
+{"level":"info","message":"Post created successfully {\n  user: new ObjectId('67d6f374a054d77ba3dfd6e2'),\n  content: 'Rodrygooo',\n  mediaIds: [ '67dfc4f878a887f379a82ffb' ],\n  _id: new ObjectId('67dfc524d174cc02712bf00b'),\n  createdAt: 2025-03-23T08:24:04.746Z,\n  updatedAt: 2025-03-23T08:24:04.746Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-03-23T08:24:04.794Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-service","timestamp":"2025-03-23T08:24:26.824Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-03-23T08:24:26.825Z"}
+{"level":"info","message":"Received DELETE request to /api/posts/67dfc524d174cc02712bf00b","service":"post-service","timestamp":"2025-03-23T08:25:05.625Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-03-23T08:25:05.625Z"}
+{"level":"info","message":"Event published: ${routingKey}","service":"post-service","timestamp":"2025-03-23T08:25:05.681Z"}
+{"level":"info","message":"Received DELETE request to /api/posts/67dfc524d174cc02712bf00b","service":"post-service","timestamp":"2025-03-23T08:26:33.697Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-03-23T08:26:33.697Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-03-23T08:30:47.946Z"}
+{"level":"info","message":"Request body: {\"content\":\"Hey jude\",\"mediaIds\":[\"67dfc6986aa773bb60d36497\"]}","service":"post-service","timestamp":"2025-03-23T08:30:47.946Z"}
+{"level":"info","message":"Create post endpoint hit ","service":"post-service","timestamp":"2025-03-23T08:30:47.947Z"}
+{"level":"info","message":"Post created successfully {\n  user: new ObjectId('67d6f374a054d77ba3dfd6e2'),\n  content: 'Hey jude',\n  mediaIds: [ '67dfc6986aa773bb60d36497' ],\n  _id: new ObjectId('67dfc6b7d174cc02712bf011'),\n  createdAt: 2025-03-23T08:30:47.951Z,\n  updatedAt: 2025-03-23T08:30:47.951Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-03-23T08:30:47.996Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-service","timestamp":"2025-03-23T08:30:52.613Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-03-23T08:30:52.613Z"}
+{"level":"info","message":"Received DELETE request to /api/posts/67dfc6b7d174cc02712bf011","service":"post-service","timestamp":"2025-03-23T08:31:18.217Z"}
+{"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-03-23T08:31:18.218Z"}
+{"level":"info","message":"Event published: ${routingKey}","service":"post-service","timestamp":"2025-03-23T08:31:18.270Z"}

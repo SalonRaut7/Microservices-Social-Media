@@ -44,3 +44,93 @@
 {"level":"info","message":"Cloudinary upload successful. Public Id: xbhfqotvpdxddz071fv4","service":"media-service","timestamp":"2025-03-21T14:35:45.118Z"}
 {"level":"info","message":"Media service running on PORT: 3003","service":"media-service","timestamp":"2025-03-21T14:36:05.223Z"}
 {"level":"info","message":"Connected to MongoDB","service":"media-service","timestamp":"2025-03-21T14:36:05.908Z"}
+{"level":"info","message":"Media service running on PORT: 3003","service":"media-service","timestamp":"2025-03-21T16:18:09.266Z"}
+{"level":"info","message":"Connected to MongoDB","service":"media-service","timestamp":"2025-03-21T16:18:10.106Z"}
+{"level":"info","message":"Media service running on PORT: 3003","service":"media-service","timestamp":"2025-03-23T07:32:41.919Z"}
+{"level":"info","message":"Connected to MongoDB","service":"media-service","timestamp":"2025-03-23T07:32:47.718Z"}
+{"level":"info","message":"Received GET request to /api/media/get","service":"media-service","timestamp":"2025-03-23T07:34:52.308Z"}
+{"level":"info","message":"Request body: {}","service":"media-service","timestamp":"2025-03-23T07:34:52.309Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-03-23T07:36:44.585Z"}
+{"level":"info","message":"Request body: {}","service":"media-service","timestamp":"2025-03-23T07:36:44.586Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-03-23T07:36:44.641Z"}
+{"level":"info","message":"File details: Name = IMG20240709192041.jpg, type: image/jpeg","service":"media-service","timestamp":"2025-03-23T07:36:44.641Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-03-23T07:36:44.642Z"}
+{"level":"info","message":"Cloudinary upload successful. Public Id: uwumt0f0bcwpzhpc0qvx","service":"media-service","timestamp":"2025-03-23T07:36:48.636Z"}
+{"level":"info","message":"Received GET request to /api/media/get","service":"media-service","timestamp":"2025-03-23T07:36:52.425Z"}
+{"level":"info","message":"Request body: {}","service":"media-service","timestamp":"2025-03-23T07:36:52.425Z"}
+{"level":"info","message":"Media service running on PORT: 3003","service":"media-service","timestamp":"2025-03-23T07:44:59.622Z"}
+{"level":"info","message":"Connected to MongoDB","service":"media-service","timestamp":"2025-03-23T07:45:00.436Z"}
+{"level":"info","message":"Media service running on PORT: 3003","service":"media-service","timestamp":"2025-03-23T07:45:46.887Z"}
+{"level":"info","message":"Connected to MongoDB","service":"media-service","timestamp":"2025-03-23T07:45:47.649Z"}
+{"level":"info","message":"Media service running on PORT: 3003","service":"media-service","timestamp":"2025-03-23T07:49:08.032Z"}
+{"level":"info","message":"Connected to MongoDB","service":"media-service","timestamp":"2025-03-23T07:49:08.805Z"}
+{"level":"info","message":"Media service running on PORT: 3003","service":"media-service","timestamp":"2025-03-23T07:50:52.114Z"}
+{"level":"info","message":"Connected to MongoDB","service":"media-service","timestamp":"2025-03-23T07:50:52.984Z"}
+{"level":"info","message":"Media service running on PORT: 3003","service":"media-service","timestamp":"2025-03-23T07:51:28.322Z"}
+{"level":"info","message":"Connected to MongoDB","service":"media-service","timestamp":"2025-03-23T07:51:29.048Z"}
+{"level":"info","message":"Media service running on PORT: 3003","service":"media-service","timestamp":"2025-03-23T07:51:36.235Z"}
+{"level":"info","message":"Connected to MongoDB","service":"media-service","timestamp":"2025-03-23T07:51:37.011Z"}
+{"level":"info","message":"Media service running on PORT: 3003","service":"media-service","timestamp":"2025-03-23T07:53:09.597Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-23T07:53:09.855Z"}
+{"level":"info","message":"Media service running on PORT: 3003","service":"media-service","timestamp":"2025-03-23T07:54:16.476Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-23T07:54:16.598Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"subscribed to event ","service":"media-service","timestamp":"2025-03-23T07:54:16.629Z"}
+{"level":"info","message":"Media service running on PORT: 3003","service":"media-service","timestamp":"2025-03-23T07:55:23.087Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-23T07:55:23.178Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"subscribed to event ","service":"media-service","timestamp":"2025-03-23T07:55:23.191Z"}
+{"level":"info","message":"Media service running on PORT: 3003","service":"media-service","timestamp":"2025-03-23T07:56:26.242Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-23T07:56:26.398Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"subscribed to event ","service":"media-service","timestamp":"2025-03-23T07:56:26.410Z"}
+{"level":"info","message":"Media service running on PORT: 3003","service":"media-service","timestamp":"2025-03-23T07:56:49.796Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-23T07:56:49.952Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"subscribed to event ","service":"media-service","timestamp":"2025-03-23T07:56:49.963Z"}
+{"level":"info","message":"Media service running on PORT: 3003","service":"media-service","timestamp":"2025-03-23T07:56:52.442Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-23T07:56:52.603Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"subscribed to event ","service":"media-service","timestamp":"2025-03-23T07:56:52.612Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-23T08:02:09.256Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"subscribed to event ","service":"media-service","timestamp":"2025-03-23T08:02:09.271Z"}
+{"level":"info","message":"Media service running on PORT: 3003","service":"media-service","timestamp":"2025-03-23T08:02:09.275Z"}
+{"level":"info","message":"Connected to MongoDB","service":"media-service","timestamp":"2025-03-23T08:02:09.996Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-03-23T08:09:38.014Z"}
+{"level":"info","message":"Request body: {}","service":"media-service","timestamp":"2025-03-23T08:09:38.015Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-03-23T08:09:38.040Z"}
+{"level":"info","message":"File details: Name = Venom the Beast wallpaper 4K HD free download Background for PC laptop and mobile.jpeg, type: image/jpeg","service":"media-service","timestamp":"2025-03-23T08:09:38.040Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-03-23T08:09:38.040Z"}
+{"level":"info","message":"Cloudinary upload successful. Public Id: dzn4s5ujcdpuj4at8vco","service":"media-service","timestamp":"2025-03-23T08:09:39.786Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-23T08:16:36.669Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"subscribed to event ","service":"media-service","timestamp":"2025-03-23T08:16:36.684Z"}
+{"level":"info","message":"Media service running on PORT: 3003","service":"media-service","timestamp":"2025-03-23T08:16:36.688Z"}
+{"level":"info","message":"Connected to MongoDB","service":"media-service","timestamp":"2025-03-23T08:16:37.425Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-23T08:20:41.030Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"subscribed to event ","service":"media-service","timestamp":"2025-03-23T08:20:41.043Z"}
+{"level":"info","message":"Media service running on PORT: 3003","service":"media-service","timestamp":"2025-03-23T08:20:41.047Z"}
+{"level":"info","message":"Connected to MongoDB","service":"media-service","timestamp":"2025-03-23T08:20:41.876Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-03-23T08:23:17.013Z"}
+{"level":"info","message":"Request body: {}","service":"media-service","timestamp":"2025-03-23T08:23:17.014Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-03-23T08:23:17.034Z"}
+{"level":"info","message":"File details: Name = Rodrygo Goes.jpeg, type: image/jpeg","service":"media-service","timestamp":"2025-03-23T08:23:17.034Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-03-23T08:23:17.034Z"}
+{"level":"info","message":"Cloudinary upload successful. Public Id: g8sfjd4z4p5o3bvt1as0","service":"media-service","timestamp":"2025-03-23T08:23:20.316Z"}
+{"level":"error","message":"Error deleting media from cloudinary publicId is not defined","service":"media-service","stack":"ReferenceError: publicId is not defined\n    at deleteMediaFromCloudinary (/home/salon/Microservices-Social-Media/media-service/src/utils/cloudinary.js:30:58)\n    at handlePostDeleted (/home/salon/Microservices-Social-Media/media-service/src/eventHandlers/media-event-handlers.js:11:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-03-23T08:25:05.757Z"}
+{"0":"E","1":"r","10":"r","11":"r","12":"e","13":"d","14":" ","15":"w","16":"h","17":"i","18":"l","19":"e","2":"r","20":" ","21":"m","22":"e","23":"d","24":"i","25":"a","26":" ","27":"d","28":"e","29":"l","3":"o","30":"e","31":"t","32":"i","33":"o","34":"n","4":"r","5":" ","6":"o","7":"c","8":"c","9":"u","level":"error","message":"publicId is not defined","service":"media-service","stack":"ReferenceError: publicId is not defined\n    at deleteMediaFromCloudinary (/home/salon/Microservices-Social-Media/media-service/src/utils/cloudinary.js:30:58)\n    at handlePostDeleted (/home/salon/Microservices-Social-Media/media-service/src/eventHandlers/media-event-handlers.js:11:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-03-23T08:25:05.758Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-23T08:26:27.694Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"subscribed to event ","service":"media-service","timestamp":"2025-03-23T08:26:27.708Z"}
+{"level":"info","message":"Media service running on PORT: 3003","service":"media-service","timestamp":"2025-03-23T08:26:27.712Z"}
+{"level":"info","message":"Connected to MongoDB","service":"media-service","timestamp":"2025-03-23T08:26:28.375Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-23T08:27:51.861Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"subscribed to event ","service":"media-service","timestamp":"2025-03-23T08:27:51.874Z"}
+{"level":"info","message":"Media service running on PORT: 3003","service":"media-service","timestamp":"2025-03-23T08:27:51.879Z"}
+{"level":"info","message":"Connected to MongoDB","service":"media-service","timestamp":"2025-03-23T08:27:52.484Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-23T08:29:17.051Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"subscribed to event ","service":"media-service","timestamp":"2025-03-23T08:29:17.066Z"}
+{"level":"info","message":"Media service running on PORT: 3003","service":"media-service","timestamp":"2025-03-23T08:29:17.069Z"}
+{"level":"info","message":"Connected to MongoDB","service":"media-service","timestamp":"2025-03-23T08:29:17.828Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-03-23T08:30:13.802Z"}
+{"level":"info","message":"Request body: {}","service":"media-service","timestamp":"2025-03-23T08:30:13.803Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-03-23T08:30:13.823Z"}
+{"level":"info","message":"File details: Name = Jude Bellingham Real Madrid Football England.jpeg, type: image/jpeg","service":"media-service","timestamp":"2025-03-23T08:30:13.824Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-03-23T08:30:13.825Z"}
+{"level":"info","message":"Cloudinary upload successful. Public Id: y9si0rk56v0vym0kmz7f","service":"media-service","timestamp":"2025-03-23T08:30:16.204Z"}
+{"0":"y","1":"9","10":"0","11":"v","12":"y","13":"m","14":"0","15":"k","16":"m","17":"z","18":"7","19":"f","2":"s","3":"i","4":"0","5":"r","6":"k","7":"5","8":"6","9":"v","level":"info","message":"Media deleted successfully from cloudinary","service":"media-service","timestamp":"2025-03-23T08:31:19.229Z"}
+{"level":"info","message":"Deleted media 67dfc6986aa773bb60d36497 associated with this deleted post 67dfc6b7d174cc02712bf011","service":"media-service","timestamp":"2025-03-23T08:31:19.277Z"}
+{"level":"info","message":"Processed deletion of media for postid 67dfc6b7d174cc02712bf011","service":"media-service","timestamp":"2025-03-23T08:31:19.278Z"}
