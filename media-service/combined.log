@@ -134,3 +134,13 @@
 {"0":"y","1":"9","10":"0","11":"v","12":"y","13":"m","14":"0","15":"k","16":"m","17":"z","18":"7","19":"f","2":"s","3":"i","4":"0","5":"r","6":"k","7":"5","8":"6","9":"v","level":"info","message":"Media deleted successfully from cloudinary","service":"media-service","timestamp":"2025-03-23T08:31:19.229Z"}
 {"level":"info","message":"Deleted media 67dfc6986aa773bb60d36497 associated with this deleted post 67dfc6b7d174cc02712bf011","service":"media-service","timestamp":"2025-03-23T08:31:19.277Z"}
 {"level":"info","message":"Processed deletion of media for postid 67dfc6b7d174cc02712bf011","service":"media-service","timestamp":"2025-03-23T08:31:19.278Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-23T09:38:39.948Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2025-03-23T09:38:39.962Z"}
+{"level":"info","message":"Media service running on PORT: 3003","service":"media-service","timestamp":"2025-03-23T09:38:39.966Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-23T09:38:41.416Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2025-03-23T09:38:41.429Z"}
+{"level":"info","message":"Media service running on PORT: 3003","service":"media-service","timestamp":"2025-03-23T09:38:41.432Z"}
+{"level":"info","message":"Connected to MongoDB","service":"media-service","timestamp":"2025-03-23T09:38:41.910Z"}
+{"level":"info","message":"Processed deletion of media for postid 67dfd90cbc607a96262b33a5","service":"media-service","timestamp":"2025-03-23T09:56:52.105Z"}
+{"level":"info","message":"Processed deletion of media for postid 67dfd8f3bc607a96262b33a3","service":"media-service","timestamp":"2025-03-23T10:14:52.615Z"}
+{"level":"info","message":"Processed deletion of media for postid 67dfe0d4bc607a96262b33b4","service":"media-service","timestamp":"2025-03-23T10:22:50.531Z"}

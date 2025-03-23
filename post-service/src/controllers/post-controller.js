@@ -36,7 +36,12 @@ const createPost = async (req,res) =>{
             mediaIds: mediaIds || []
         })
         await newlyCreatedPost.save();
-
+        await publishEvent('post.created',{
+            postId: newlyCreatedPost._id.toString(),
+            userId: newlyCreatedPost.user.toString(),
+            content: newlyCreatedPost.content,
+            createdAt: newlyCreatedPost.createdAt,
+        })
         // Invalidate cache when a new post is created as the previous cache will be outdated.
         await invalidatePostCache(req,newlyCreatedPost._id.toString())
 

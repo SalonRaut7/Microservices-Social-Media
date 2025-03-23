@@ -1,0 +1,155 @@
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T09:36:00.130Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"c","6":"r","7":"e","8":"a","9":"t","level":"info","message":"subscribed to event ","service":"search-service","timestamp":"2025-03-23T09:36:00.143Z"}
+{"level":"info","message":"Search service running on PORT: 3004","service":"search-service","timestamp":"2025-03-23T09:36:00.147Z"}
+{"level":"info","message":"Connected to MongoDB","service":"search-service","timestamp":"2025-03-23T09:36:01.140Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T09:37:09.343Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"c","6":"r","7":"e","8":"a","9":"t","level":"info","message":"subscribed to event ","service":"search-service","timestamp":"2025-03-23T09:37:09.365Z"}
+{"level":"info","message":"Search service running on PORT: 3004","service":"search-service","timestamp":"2025-03-23T09:37:09.368Z"}
+{"level":"info","message":"Connected to MongoDB","service":"search-service","timestamp":"2025-03-23T09:37:09.982Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T09:37:14.101Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"c","6":"r","7":"e","8":"a","9":"t","level":"info","message":"subscribed to event ","service":"search-service","timestamp":"2025-03-23T09:37:14.115Z"}
+{"level":"info","message":"Search service running on PORT: 3004","service":"search-service","timestamp":"2025-03-23T09:37:14.120Z"}
+{"level":"info","message":"Connected to MongoDB","service":"search-service","timestamp":"2025-03-23T09:37:14.813Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T09:37:23.928Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"c","6":"r","7":"e","8":"a","9":"t","level":"info","message":"subscribed to event ","service":"search-service","timestamp":"2025-03-23T09:37:23.940Z"}
+{"level":"info","message":"Search service running on PORT: 3004","service":"search-service","timestamp":"2025-03-23T09:37:23.944Z"}
+{"level":"info","message":"Connected to MongoDB","service":"search-service","timestamp":"2025-03-23T09:37:24.618Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T09:38:19.522Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-03-23T09:38:19.536Z"}
+{"level":"info","message":"Search service running on PORT: 3004","service":"search-service","timestamp":"2025-03-23T09:38:19.539Z"}
+{"level":"info","message":"Connected to MongoDB","service":"search-service","timestamp":"2025-03-23T09:38:20.610Z"}
+{"level":"info","message":"Search post created: 67dfd73bbc607a96262b339b, 67dfd73b8fe83b43e833d6f2","service":"search-service","timestamp":"2025-03-23T09:41:16.021Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T09:41:21.499Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-03-23T09:41:21.511Z"}
+{"level":"info","message":"Search service running on PORT: 3004","service":"search-service","timestamp":"2025-03-23T09:41:21.515Z"}
+{"level":"info","message":"Connected to MongoDB","service":"search-service","timestamp":"2025-03-23T09:41:22.405Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T09:43:18.936Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-03-23T09:43:18.958Z"}
+{"level":"info","message":"Search service running on PORT: 3004","service":"search-service","timestamp":"2025-03-23T09:43:18.967Z"}
+{"level":"info","message":"Connected to MongoDB","service":"search-service","timestamp":"2025-03-23T09:43:19.705Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: test.searches index: userId_1 dup key: { userId: \"67d6f374a054d77ba3dfd6e2\" }","index":0,"keyPattern":{"userId":1},"keyValue":{"userId":"67d6f374a054d77ba3dfd6e2"}},"index":0,"keyPattern":{"userId":1},"keyValue":{"userId":"67d6f374a054d77ba3dfd6e2"},"level":"error","message":"Error handling post creation event E11000 duplicate key error collection: test.searches index: userId_1 dup key: { userId: \"67d6f374a054d77ba3dfd6e2\" }","service":"search-service","stack":"MongoServerError: E11000 duplicate key error collection: test.searches index: userId_1 dup key: { userId: \"67d6f374a054d77ba3dfd6e2\" }\n    at InsertOneOperation.execute (/home/salon/Microservices-Social-Media/search-service/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async tryOperation (/home/salon/Microservices-Social-Media/search-service/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/home/salon/Microservices-Social-Media/search-service/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/home/salon/Microservices-Social-Media/search-service/node_modules/mongodb/lib/collection.js:157:16)","timestamp":"2025-03-23T09:45:23.174Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T09:45:35.345Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-03-23T09:45:35.358Z"}
+{"level":"info","message":"Search service running on PORT: 3004","service":"search-service","timestamp":"2025-03-23T09:45:35.363Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T09:45:41.791Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-03-23T09:45:41.804Z"}
+{"level":"info","message":"Search service running on PORT: 3004","service":"search-service","timestamp":"2025-03-23T09:45:41.808Z"}
+{"level":"info","message":"Connected to MongoDB","service":"search-service","timestamp":"2025-03-23T09:45:42.590Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: test.searches index: userId_1 dup key: { userId: \"67d6f374a054d77ba3dfd6e2\" }","index":0,"keyPattern":{"userId":1},"keyValue":{"userId":"67d6f374a054d77ba3dfd6e2"}},"index":0,"keyPattern":{"userId":1},"keyValue":{"userId":"67d6f374a054d77ba3dfd6e2"},"level":"error","message":"Error handling post creation event E11000 duplicate key error collection: test.searches index: userId_1 dup key: { userId: \"67d6f374a054d77ba3dfd6e2\" }","service":"search-service","stack":"MongoServerError: E11000 duplicate key error collection: test.searches index: userId_1 dup key: { userId: \"67d6f374a054d77ba3dfd6e2\" }\n    at InsertOneOperation.execute (/home/salon/Microservices-Social-Media/search-service/node_modules/mongodb/lib/operations/insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async tryOperation (/home/salon/Microservices-Social-Media/search-service/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/home/salon/Microservices-Social-Media/search-service/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async Collection.insertOne (/home/salon/Microservices-Social-Media/search-service/node_modules/mongodb/lib/collection.js:157:16)","timestamp":"2025-03-23T09:45:48.997Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T09:48:30.965Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-03-23T09:48:30.977Z"}
+{"level":"info","message":"Search service running on PORT: 3004","service":"search-service","timestamp":"2025-03-23T09:48:30.981Z"}
+{"level":"info","message":"Connected to MongoDB","service":"search-service","timestamp":"2025-03-23T09:48:31.664Z"}
+{"level":"info","message":"Search post created: 67dfd8f3bc607a96262b33a3, 67dfd8f352659eef2b40fb33","service":"search-service","timestamp":"2025-03-23T09:48:35.515Z"}
+{"level":"info","message":"Search post created: 67dfd90cbc607a96262b33a5, 67dfd90c52659eef2b40fb35","service":"search-service","timestamp":"2025-03-23T09:49:00.322Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T09:51:56.627Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-03-23T09:51:56.648Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T09:53:18.041Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-03-23T09:53:18.053Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T09:54:30.306Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-03-23T09:54:30.322Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T09:54:58.699Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-03-23T09:54:58.714Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T09:55:07.329Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-03-23T09:55:07.344Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T09:55:16.858Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-03-23T09:55:16.870Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"search-service","timestamp":"2025-03-23T09:55:16.880Z"}
+{"level":"info","message":"Search service running on PORT: 3004","service":"search-service","timestamp":"2025-03-23T09:55:16.888Z"}
+{"level":"info","message":"Connected to MongoDB","service":"search-service","timestamp":"2025-03-23T09:55:17.474Z"}
+{"level":"info","message":"Search post deleted: 67dfd90cbc607a96262b33a5","service":"search-service","timestamp":"2025-03-23T09:56:52.111Z"}
+{"level":"info","message":"Search post created: 67dfdb2cbc607a96262b33aa, 67dfdb2c2067a6b79826dfe1","service":"search-service","timestamp":"2025-03-23T09:58:04.422Z"}
+{"level":"info","message":"Search post created: 67dfdb31bc607a96262b33ac, 67dfdb312067a6b79826dfe3","service":"search-service","timestamp":"2025-03-23T09:58:09.466Z"}
+{"level":"info","message":"Search post created: 67dfdb36bc607a96262b33ae, 67dfdb362067a6b79826dfe5","service":"search-service","timestamp":"2025-03-23T09:58:14.457Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=Search-service","service":"search-service","timestamp":"2025-03-23T10:00:19.818Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-23T10:00:19.819Z"}
+{"level":"info","message":"Search endpoint hit!","service":"search-service","timestamp":"2025-03-23T10:00:19.825Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T10:04:55.075Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-03-23T10:04:55.090Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"search-service","timestamp":"2025-03-23T10:04:55.098Z"}
+{"level":"info","message":"Search service running on PORT: 3004","service":"search-service","timestamp":"2025-03-23T10:04:55.102Z"}
+{"level":"info","message":"Connected to MongoDB","service":"search-service","timestamp":"2025-03-23T10:04:55.797Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T10:07:17.875Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-03-23T10:07:17.897Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"search-service","timestamp":"2025-03-23T10:07:17.911Z"}
+{"level":"info","message":"Search service running on PORT: 3004","service":"search-service","timestamp":"2025-03-23T10:07:17.915Z"}
+{"level":"info","message":"Connected to MongoDB","service":"search-service","timestamp":"2025-03-23T10:07:18.730Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T10:07:39.919Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-03-23T10:07:39.934Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"search-service","timestamp":"2025-03-23T10:07:39.944Z"}
+{"level":"info","message":"Search service running on PORT: 3004","service":"search-service","timestamp":"2025-03-23T10:07:39.948Z"}
+{"level":"info","message":"Connected to MongoDB","service":"search-service","timestamp":"2025-03-23T10:07:40.408Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T10:10:48.711Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-03-23T10:10:48.737Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"search-service","timestamp":"2025-03-23T10:10:48.770Z"}
+{"level":"info","message":"Search service running on PORT: 3004","service":"search-service","timestamp":"2025-03-23T10:10:48.774Z"}
+{"level":"info","message":"Connected to MongoDB","service":"search-service","timestamp":"2025-03-23T10:10:49.394Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T10:12:41.523Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-03-23T10:12:41.539Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"search-service","timestamp":"2025-03-23T10:12:41.548Z"}
+{"level":"info","message":"Search service running on PORT: 3004","service":"search-service","timestamp":"2025-03-23T10:12:41.551Z"}
+{"level":"info","message":"Connected to MongoDB","service":"search-service","timestamp":"2025-03-23T10:12:42.316Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T10:12:52.905Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-03-23T10:12:52.919Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"search-service","timestamp":"2025-03-23T10:12:52.929Z"}
+{"level":"info","message":"Search service running on PORT: 3004","service":"search-service","timestamp":"2025-03-23T10:12:52.934Z"}
+{"level":"info","message":"Connected to MongoDB","service":"search-service","timestamp":"2025-03-23T10:12:53.518Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=Search-service","service":"search-service","timestamp":"2025-03-23T10:13:20.204Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-23T10:13:20.205Z"}
+{"level":"info","message":"Search endpoint hit!","service":"search-service","timestamp":"2025-03-23T10:13:20.210Z"}
+{"level":"info","message":"Cached search results for query: Search-service","service":"search-service","timestamp":"2025-03-23T10:13:20.299Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=Search-service","service":"search-service","timestamp":"2025-03-23T10:13:22.360Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-23T10:13:22.361Z"}
+{"level":"info","message":"Search endpoint hit!","service":"search-service","timestamp":"2025-03-23T10:13:22.363Z"}
+{"level":"info","message":"Cache hit for query: Search-service","service":"search-service","timestamp":"2025-03-23T10:13:22.364Z"}
+{"level":"info","message":"Search post created: 67dfded3bc607a96262b33b0, 67dfded31cc8f5479c519605","service":"search-service","timestamp":"2025-03-23T10:13:39.487Z"}
+{"level":"error","message":"Error handling post creation event Cannot read properties of undefined (reading 'keys')","service":"search-service","stack":"TypeError: Cannot read properties of undefined (reading 'keys')\n    at invalidatePostCache (/home/salon/Microservices-Social-Media/search-service/src/controllers/search-controller.js:50:40)\n    at handlePostCreated (/home/salon/Microservices-Social-Media/search-service/src/eventHandlers/search-event-handlers.js:20:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-03-23T10:13:39.488Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=Search-service","service":"search-service","timestamp":"2025-03-23T10:13:44.871Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-23T10:13:44.871Z"}
+{"level":"info","message":"Search endpoint hit!","service":"search-service","timestamp":"2025-03-23T10:13:44.873Z"}
+{"level":"info","message":"Cache hit for query: Search-service","service":"search-service","timestamp":"2025-03-23T10:13:44.874Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=Search-service","service":"search-service","timestamp":"2025-03-23T10:13:46.331Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-23T10:13:46.331Z"}
+{"level":"info","message":"Search endpoint hit!","service":"search-service","timestamp":"2025-03-23T10:13:46.333Z"}
+{"level":"info","message":"Cache hit for query: Search-service","service":"search-service","timestamp":"2025-03-23T10:13:46.334Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=Search-service","service":"search-service","timestamp":"2025-03-23T10:13:48.826Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-23T10:13:48.826Z"}
+{"level":"info","message":"Search endpoint hit!","service":"search-service","timestamp":"2025-03-23T10:13:48.828Z"}
+{"level":"info","message":"Cache hit for query: Search-service","service":"search-service","timestamp":"2025-03-23T10:13:48.829Z"}
+{"level":"info","message":"Search post deleted: 67dfd8f3bc607a96262b33a3","service":"search-service","timestamp":"2025-03-23T10:14:52.637Z"}
+{"level":"error","message":"Error handling post deletion event Cannot read properties of undefined (reading 'keys')","service":"search-service","stack":"TypeError: Cannot read properties of undefined (reading 'keys')\n    at invalidatePostCache (/home/salon/Microservices-Social-Media/search-service/src/controllers/search-controller.js:50:40)\n    at handlePostDeleted (/home/salon/Microservices-Social-Media/search-service/src/eventHandlers/search-event-handlers.js:36:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-03-23T10:14:52.637Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=Search-service","service":"search-service","timestamp":"2025-03-23T10:14:59.436Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-23T10:14:59.437Z"}
+{"level":"info","message":"Search endpoint hit!","service":"search-service","timestamp":"2025-03-23T10:14:59.438Z"}
+{"level":"info","message":"Cache hit for query: Search-service","service":"search-service","timestamp":"2025-03-23T10:14:59.438Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=Search-service","service":"search-service","timestamp":"2025-03-23T10:15:03.681Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-23T10:15:03.682Z"}
+{"level":"info","message":"Search endpoint hit!","service":"search-service","timestamp":"2025-03-23T10:15:03.683Z"}
+{"level":"info","message":"Cache hit for query: Search-service","service":"search-service","timestamp":"2025-03-23T10:15:03.685Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T10:17:24.959Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-03-23T10:17:24.975Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"search-service","timestamp":"2025-03-23T10:17:24.988Z"}
+{"level":"info","message":"Search service running on PORT: 3004","service":"search-service","timestamp":"2025-03-23T10:17:24.995Z"}
+{"level":"info","message":"Connected to MongoDB","service":"search-service","timestamp":"2025-03-23T10:17:25.651Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T10:18:21.157Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-03-23T10:18:21.174Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"search-service","timestamp":"2025-03-23T10:18:21.192Z"}
+{"level":"info","message":"Search service running on PORT: 3004","service":"search-service","timestamp":"2025-03-23T10:18:21.198Z"}
+{"level":"info","message":"Connected to MongoDB","service":"search-service","timestamp":"2025-03-23T10:18:21.692Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T10:20:05.767Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"search-service","timestamp":"2025-03-23T10:20:05.782Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"search-service","timestamp":"2025-03-23T10:20:05.801Z"}
+{"level":"info","message":"Search service running on PORT: 3004","service":"search-service","timestamp":"2025-03-23T10:20:05.805Z"}
+{"level":"info","message":"Connected to MongoDB","service":"search-service","timestamp":"2025-03-23T10:20:06.365Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=Search-service","service":"search-service","timestamp":"2025-03-23T10:20:50.595Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-23T10:20:50.595Z"}
+{"level":"info","message":"Search endpoint hit!","service":"search-service","timestamp":"2025-03-23T10:20:50.602Z"}
+{"level":"info","message":"Cache hit for query: Search-service","service":"search-service","timestamp":"2025-03-23T10:20:50.603Z"}
+{"level":"info","message":"Search post created: 67dfe0d4bc607a96262b33b4, 67dfe0d48becce75f46b3866","service":"search-service","timestamp":"2025-03-23T10:22:13.034Z"}
+{"level":"info","message":"Cache invalidated for post ID: 67dfe0d4bc607a96262b33b4","service":"search-service","timestamp":"2025-03-23T10:22:13.035Z"}
+{"level":"info","message":"Search post deleted: 67dfe0d4bc607a96262b33b4","service":"search-service","timestamp":"2025-03-23T10:22:50.545Z"}
+{"level":"info","message":"Cache invalidated for post ID: 67dfe0d4bc607a96262b33b4","service":"search-service","timestamp":"2025-03-23T10:22:50.548Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=Search-service","service":"search-service","timestamp":"2025-03-23T10:23:00.556Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-23T10:23:00.556Z"}
+{"level":"info","message":"Search endpoint hit!","service":"search-service","timestamp":"2025-03-23T10:23:00.558Z"}
+{"level":"info","message":"Cache hit for query: Search-service","service":"search-service","timestamp":"2025-03-23T10:23:00.560Z"}
