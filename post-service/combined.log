@@ -259,3 +259,6 @@
 {"level":"info","message":"Received DELETE request to /api/posts/67dfe0d4bc607a96262b33b4","service":"post-service","timestamp":"2025-03-23T10:22:50.423Z"}
 {"level":"info","message":"Request body: {}","service":"post-service","timestamp":"2025-03-23T10:22:50.423Z"}
 {"level":"info","message":"Event published: ${routingKey}","service":"post-service","timestamp":"2025-03-23T10:22:50.485Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-03-23T10:44:12.610Z"}
+{"level":"info","message":"Post service running on PORT: 3002","service":"post-service","timestamp":"2025-03-23T10:44:12.619Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-03-23T10:44:23.563Z"}

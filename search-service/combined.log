@@ -153,3 +153,4 @@
 {"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-23T10:23:00.556Z"}
 {"level":"info","message":"Search endpoint hit!","service":"search-service","timestamp":"2025-03-23T10:23:00.558Z"}
 {"level":"info","message":"Cache hit for query: Search-service","service":"search-service","timestamp":"2025-03-23T10:23:00.560Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-23T10:44:12.461Z"}

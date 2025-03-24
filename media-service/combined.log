@@ -144,3 +144,7 @@
 {"level":"info","message":"Processed deletion of media for postid 67dfd90cbc607a96262b33a5","service":"media-service","timestamp":"2025-03-23T09:56:52.105Z"}
 {"level":"info","message":"Processed deletion of media for postid 67dfd8f3bc607a96262b33a3","service":"media-service","timestamp":"2025-03-23T10:14:52.615Z"}
 {"level":"info","message":"Processed deletion of media for postid 67dfe0d4bc607a96262b33b4","service":"media-service","timestamp":"2025-03-23T10:22:50.531Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-23T10:44:12.712Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2025-03-23T10:44:12.724Z"}
+{"level":"info","message":"Media service running on PORT: 3003","service":"media-service","timestamp":"2025-03-23T10:44:12.727Z"}
+{"level":"info","message":"Connected to MongoDB","service":"media-service","timestamp":"2025-03-23T10:44:23.627Z"}
