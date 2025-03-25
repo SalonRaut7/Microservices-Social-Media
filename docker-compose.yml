@@ -1,0 +1,92 @@
+# Use Docker Compose version 3.8
+version: '3.8'
+
+services:
+  # ==============================
+  # 📌 API Gateway Service
+  # ==============================
+  api-gateway:
+    build: ./api-gateway  # Build the API Gateway from the `api-gateway` directory
+    ports:
+      - "3000:3000"  # Expose API Gateway on port 3000
+    env_file: ./api-gateway/.env  # Load environment variables from .env file
+    depends_on:
+      - redis
+      - rabbitmq  # Ensure Redis and RabbitMQ start before this service
+    environment:
+      - REDIS_URL=redis://redis:6379  # Connect to Redis
+      - RABBITMQ_URL=amqp://rabbitmq:5672  # Connect to RabbitMQ
+
+  # ==============================
+  # 📌 Identity Service (Auth & Users)
+  # ==============================
+  identity-service:
+    build: ./identity-service  # Build from `identity-service` directory
+    env_file: ./identity-service/.env  # Load environment variables
+    depends_on:
+      - redis
+      - rabbitmq  # Ensure Redis and RabbitMQ start before this service
+    environment:
+      - REDIS_URL=redis://redis:6379  # Connect to Redis
+      - RABBITMQ_URL=amqp://rabbitmq:5672  # Connect to RabbitMQ
+
+  # ==============================
+  # 📌 Post Service (Handles Posts)
+  # ==============================
+  post-service:
+    build: ./post-service  # Build from `post-service` directory
+    env_file: ./post-service/.env  # Load environment variables
+    depends_on:
+      - redis
+      - rabbitmq  # Ensure Redis and RabbitMQ start before this service
+    environment:
+      - REDIS_URL=redis://redis:6379  # Connect to Redis
+      - RABBITMQ_URL=amqp://rabbitmq:5672  # Connect to RabbitMQ
+
+  # ==============================
+  # 📌 Media Service (Handles File Uploads)
+  # ==============================
+  media-service:
+    build: ./media-service  # Build from `media-service` directory
+    env_file: ./media-service/.env  # Load environment variables
+    depends_on:
+      - redis
+      - rabbitmq  # Ensure Redis and RabbitMQ start before this service
+    environment:
+      - REDIS_URL=redis://redis:6379  # Connect to Redis
+      - RABBITMQ_URL=amqp://rabbitmq:5672  # Connect to RabbitMQ
+
+  # ==============================
+  # 📌 Search Service (Handles Post Search)
+  # ==============================
+  search-service:
+    build: ./search-service  # Build from `search-service` directory
+    env_file: ./search-service/.env  # Load environment variables
+    depends_on:
+      - redis
+      - rabbitmq  # Ensure Redis and RabbitMQ start before this service
+    environment:
+      - REDIS_URL=redis://redis:6379  # Connect to Redis
+      - RABBITMQ_URL=amqp://rabbitmq:5672  # Connect to RabbitMQ
+
+  # ==============================
+  # 📌 Redis (In-memory Caching)
+  # ==============================
+  redis:
+    image: redis:alpine  # Use a lightweight Redis image
+    ports:
+      - "6379:6379"  # Expose Redis on port 6379
+
+  # ==============================
+  # 📌 RabbitMQ (Message Queue)
+  # ==============================
+  rabbitmq:
+    image: rabbitmq:3-management  # Use RabbitMQ with a management UI
+    ports:
+      - "5672:5672"    # Port for RabbitMQ messaging
+      - "15672:15672"  # Port for RabbitMQ Management UI (access via browser)
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "-q", "ping"]  # Check RabbitMQ health
+      interval: 30s  # Run health checks every 30 seconds
+      timeout: 10s  # Timeout after 10 seconds if no response
+      retries: 5  # Retry up to 5 times before marking as unhealthy
